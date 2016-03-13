@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIimageMask.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UIImage *image = [UIImage imageNamed:@"Xman.jpg"];
+    
+    image = [UIimageMask waterMaskImage:image text:@"zn make"];
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 200, 200)];
+    imageView.image = image;
+    [self.view addSubview:imageView];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {

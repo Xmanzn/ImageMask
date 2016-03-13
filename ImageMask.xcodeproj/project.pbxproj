@@ -15,6 +15,8 @@
 		8FF046441C954D8F001C6708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF046421C954D8F001C6708 /* LaunchScreen.storyboard */; };
 		8FF0464F1C954D8F001C6708 /* ImageMaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF0464E1C954D8F001C6708 /* ImageMaskTests.m */; };
 		8FF0465A1C954D8F001C6708 /* ImageMaskUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF046591C954D8F001C6708 /* ImageMaskUITests.m */; };
+		8FF046691C954DA9001C6708 /* UIimageMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF046681C954DA9001C6708 /* UIimageMask.m */; };
+		8FF0466D1C954E30001C6708 /* Xman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FF0466C1C954E30001C6708 /* Xman.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		8FF046551C954D8F001C6708 /* ImageMaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF046591C954D8F001C6708 /* ImageMaskUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMaskUITests.m; sourceTree = "<group>"; };
 		8FF0465B1C954D8F001C6708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FF046671C954DA9001C6708 /* UIimageMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIimageMask.h; sourceTree = "<group>"; };
+		8FF046681C954DA9001C6708 /* UIimageMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIimageMask.m; sourceTree = "<group>"; };
+		8FF0466C1C954E30001C6708 /* Xman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Xman.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +110,11 @@
 				8FF046381C954D8F001C6708 /* AppDelegate.m */,
 				8FF0463A1C954D8F001C6708 /* ViewController.h */,
 				8FF0463B1C954D8F001C6708 /* ViewController.m */,
+				8FF046671C954DA9001C6708 /* UIimageMask.h */,
+				8FF046681C954DA9001C6708 /* UIimageMask.m */,
 				8FF0463D1C954D8F001C6708 /* Main.storyboard */,
 				8FF046401C954D8F001C6708 /* Assets.xcassets */,
+				8FF0466C1C954E30001C6708 /* Xman.jpg */,
 				8FF046421C954D8F001C6708 /* LaunchScreen.storyboard */,
 				8FF046451C954D8F001C6708 /* Info.plist */,
 				8FF046341C954D8F001C6708 /* Supporting Files */,
@@ -249,6 +257,7 @@
 				8FF046441C954D8F001C6708 /* LaunchScreen.storyboard in Resources */,
 				8FF046411C954D8F001C6708 /* Assets.xcassets in Resources */,
 				8FF0463F1C954D8F001C6708 /* Main.storyboard in Resources */,
+				8FF0466D1C954E30001C6708 /* Xman.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FF0463C1C954D8F001C6708 /* ViewController.m in Sources */,
+				8FF046691C954DA9001C6708 /* UIimageMask.m in Sources */,
 				8FF046391C954D8F001C6708 /* AppDelegate.m in Sources */,
 				8FF046361C954D8F001C6708 /* main.m in Sources */,
 			);
